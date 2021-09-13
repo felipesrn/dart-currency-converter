@@ -1,0 +1,47 @@
+name: flutter_currency_conversion
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+
+  #sdk
+  flutter:
+    sdk: flutter
+
+  #data
+  shared_preferences: ^0.4.2
+  http: ^0.11.3+17
+
+  #dateTime
+  intl: ^0.15.7
+
+  #device
+  flutter_device_type: ^0.1.0
+
+  #icons
+  flutter_launcher_icons: "^0.6.1"
+
+  #ui
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/
+  fonts:
+    - family: Rockwell
+      fonts:
+        - asset: fonts/Rockwell.ttc
+        
+flutter_icons:
+  image_path: "icon/icon.png" 
+  android: true
+  ios: true
